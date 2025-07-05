@@ -102,3 +102,12 @@ PromptInfo:
 ---
 {{selection}} contains a list of learning objectives. For each objective, suggest two assessment forms that could measure whether a student has achieved this learning outcomes in a valid, reliable manner. Give one traditional suggestion and one innovative suggestion for each learning objective. Present the suggestions in a table under a h2 header titled 'LLM-generated ideas for assessment'
 ```
+# Troubleshooting
+When setting up the Text Generator plugin and adding UvA AI chat as an LLM, you may run into issues with the model name. Alternatively, you might simply want to use a different model than listed in this guide.
+
+The best way to solve this is to use the ``curl`` command via the command line. For this you will again need your API key. The command to use is:
+
+```bash
+curl -X GET "https://ai-research-proxy.azurewebsites.net/v1/models" -H "Authorization: Bearer your_api_key"
+```
+This will provide you with a list of model names, which you can use when setting up the plugin. Note that results may vary depending on the choice of model.
