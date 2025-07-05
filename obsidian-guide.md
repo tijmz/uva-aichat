@@ -28,7 +28,7 @@ Full documentation for Text Generator and its syntax for prompts can be found he
 4. Here, you can add LLM profiles: select the profile 'Custom'
 5. Now, we need to add the particulars for UvA AI Chat:
 
-![Image of Text Generator settings](https://github.com/tijmz/uva-aichat/textgen.png))
+![Image of Text Generator settings](https://github.com/tijmz/uva-aichat/blob/main/textgen.png)
 
 6. As the Endpoint, use https://ai-research-proxy.azurewebsites.net/v1/chat/completions
 7. For API Key, use your personal API key
