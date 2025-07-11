@@ -102,6 +102,9 @@ PromptInfo:
 ---
 {{selection}} contains a list of learning objectives. For each objective, suggest two assessment forms that could measure whether a student has achieved this learning outcomes in a valid, reliable manner. Give one traditional suggestion and one innovative suggestion for each learning objective. Present the suggestions in a table under a h2 header titled 'LLM-generated ideas for assessment'
 ```
+# Prompt library
+An active library of education is maintained in this repository: [https://github.com/tijmz/uva-aichat/tree/main/textgenerator-prompts](https://github.com/tijmz/uva-aichat/tree/main/textgenerator-prompts)
+
 # Troubleshooting
 When setting up the Text Generator plugin and adding UvA AI chat as an LLM, you may run into issues with the model name. Alternatively, you might simply want to use a different model than listed in this guide.
 
