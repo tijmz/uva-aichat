@@ -106,6 +106,8 @@ PromptInfo:
 An active library of education-related prompts for use with the Obsidian Text Generator plugin is maintained in this repository: [https://github.com/tijmz/uva-aichat/tree/main/textgenerator-prompts](https://github.com/tijmz/uva-aichat/tree/main/textgenerator-prompts)
 
 # Troubleshooting
+
+## Model not found
 When setting up the Text Generator plugin and adding UvA AI chat as an LLM, you may run into issues with the model name. Alternatively, you might simply want to use a different model than listed in this guide.
 
 The best way to solve this is to use the ``curl`` command via the command line. For this you will again need your API key. The command to use is:
@@ -114,3 +116,8 @@ The best way to solve this is to use the ``curl`` command via the command line. 
 curl -X GET "https://ai-research-proxy.azurewebsites.net/v1/models" -H "Authorization: Bearer your_api_key"
 ```
 This will provide you with a list of model names, which you can use when setting up the plugin. Note that results may vary depending on the choice of model.
+
+## Underperformance
+Prompts that depend on the {{content}} variable may not perform as well with UvA AI Chat as they do with other services and you may have the impression that UvA AI Chat does not consider the full note on which you run the prompt. 
+
+This is probably related to limitations in the prompt space. Decreasing the {{content}} size can help. Adjusting parameters in the Text Generator plugin did not yield significantly better results in my cases.
