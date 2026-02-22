@@ -1,5 +1,5 @@
 # Introduction
-Beaver is a Zotero plugin that adds LLM functionality to your library of scientific articles. For more information, see https://www.beaverapp.ai. Here I will document how you can connect Beaver to use UvA AI Chat. Note that streaming and tool calling are prerequisites for integrating any model with Beaver. At the time of this writing, I am not sure which models in UvA AI Chat support these.
+Beaver is a Zotero plugin that adds LLM functionality to your library of scientific articles. For more information, see https://www.beaverapp.ai. Here I will document how you can connect Beaver to use UvA AI Chat. Note that streaming and tool calling are prerequisites for integrating any model with Beaver. At the time of this writing, I am not sure which models in UvA AI Chat support these. Larger models can cause latency or streaming timeouts that bring Beaver (or you) to give up.
 
 # What you will need
 
@@ -11,7 +11,7 @@ Beaver is a Zotero plugin that adds LLM functionality to your library of scienti
 
 - Open Zotero → Settings → Advanced → Config Editor
 - Search for ``beaver.customChatModels``
-- Enter a JSON array with your model configurations (see below). You can add multiple models, but here I stick to ``nf-gpt-4o``, because I had success with this model.
+- Enter a JSON array with your model configurations (see below). You can add multiple models, but here I stick to ``nf-gpt-4o-mini``, because I had success with this model.
 
 ```json
 [
@@ -20,7 +20,7 @@ Beaver is a Zotero plugin that adds LLM functionality to your library of scienti
     "format": "openai",
     "api_key": "YOUR_API_KEY"
     "name": "UvA AI Chat",
-    "snapshot": "nf-gpt-4o",
+    "snapshot": "nf-gpt-4o-mini",
     "context_window": 128000,
     "supports_vision": true
   }
