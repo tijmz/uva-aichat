@@ -14,18 +14,10 @@ Beaver is a Zotero plugin that adds LLM functionality to your library of scienti
 - Enter a JSON array with your model configurations (see below)
 
 ```json
-[
-  {
-    "api_base": "https://ai-research-proxy.azurewebsites.net/v1/chat/completions",
-    "format": "openai",
-    "api_key": "your-api-key",
-    "name": "UvA AI Chat",
-    "snapshot": "gpt-35-turbo",
-    "context_window": 128000,
-    "supports_vision": true
-  }
-]
+[   {     "api_base": "https://ai-research-proxy.azurewebsites.net/v1",     "format": "openai",     "api_key": YOUR_KEY,     "name": "UvA AI Chat",     "snapshot": "nf-gpt-4o",     "context_window": 128000, "supports_vision": true} ]
 ```
+# What you can do with it
+Now you can use UvA AI chat to help you maintain your literature. For example, you can ask it to reorganise your collected citations:
 
-
+<img width="1547" height="1914" alt="image" src="https://github.com/user-attachments/assets/e0095b4a-9444-45f5-80c1-f499d96d0804" />
 
