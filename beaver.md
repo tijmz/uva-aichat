@@ -22,7 +22,8 @@ Beaver is a Zotero plugin that adds LLM functionality to your library of scienti
     "name": "UvA AI Chat",
     "snapshot": "nf-gpt-4o",
     "context_window": 128000,
-    "supports_vision": true}
+    "supports_vision": true
+  }
 ]
 ```
 # What you can do with it
