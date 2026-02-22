@@ -1,4 +1,6 @@
 
+>[note!] As part of a digital decolonisation move, the latest content for this entry can be found via: [https://uva-hva.gitlab.host/V.Tijms/uva-aichat/-/blob/main/obsidian-guide.md](https://uva-hva.gitlab.host/V.Tijms/uva-aichat/-/blob/main/obsidian-guide.md)
+
 # Introduction
 This is a guide for integrating UvA AI Chat with Obsidian, the open source, markdown-based personal knowledge management system. You can learn more about this tool via https://obsidian.md/.
 
