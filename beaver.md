@@ -11,7 +11,7 @@ Beaver is a Zotero plugin that adds LLM functionality to your library of scienti
 
 - Open Zotero → Settings → Advanced → Config Editor
 - Search for ``beaver.customChatModels``
-- Enter a JSON array with your model configurations (see below)
+- Enter a JSON array with your model configurations (see below). You can add multiple models, but here I stick to ``nf-gpt-4o``, because I had success with this model.
 
 ```json
 [
